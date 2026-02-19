@@ -1,0 +1,13 @@
+.assignment-form {
+  max-width: 500px;
+}
+
+.assignment-form h3 {
+  margin-bottom: 15px;
+  color: #e91e63;
+}
+
+.assignment-form input,
+.assignment-form textarea {
+  margin-bottom: 12px;
+}

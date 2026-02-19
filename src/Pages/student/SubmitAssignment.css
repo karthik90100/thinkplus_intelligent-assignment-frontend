@@ -1,0 +1,87 @@
+.submit-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fce4ec, #f3e5f5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-card {
+    background: #ffffff;
+    width: 420px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Back Button */
+.back-btn {
+    background: transparent;
+    border: none;
+    color: #9c27b0;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
+
+/* Title */
+.submit-card h2 {
+    text-align: center;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+/* Textarea */
+.submit-card textarea {
+    width: 100%;
+    resize: none;
+    min-height: 120px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* OR text */
+.submit-card p {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+    color: #777;
+}
+
+/* File input */
+.submit-card input[type="file"] {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Submit button */
+.submit-card button {
+    width: 100%;
+    background: linear-gradient(135deg, #e91e63, #9c27b0);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit-card button:hover {
+    opacity: 0.9;
+}
+
+/* Status text */
+.status {
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 600;
+    color: #555;
+}

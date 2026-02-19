@@ -1,0 +1,44 @@
+.feedback-card {
+    background: white;
+    border-radius: 14px;
+    padding: 24px;
+    max-width: 520px;
+    margin: 0 auto;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.1);
+    border-top: 6px solid #9c27b0;
+}
+
+.feedback-card h3 {
+    font-size: 22px;
+    color: #e91e63;
+    margin-bottom: 14px;
+}
+
+.feedback-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.label {
+    font-weight: 600;
+    color: #555;
+}
+
+.value {
+    font-weight: bold;
+    color: #333;
+}
+
+.plagiarism {
+    color: #ff5722;
+}
+
+.feedback-comment {
+    margin-top: 16px;
+    padding: 14px;
+    background: #f9f9fb;
+    border-radius: 8px;
+    line-height: 1.6;
+    color: #444;
+}

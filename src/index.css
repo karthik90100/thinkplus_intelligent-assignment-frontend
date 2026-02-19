@@ -1,0 +1,26 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root & Body */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Remove Vite demo styles */
+body {
+  background-color: #ffffff;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,143 @@
+/* ===============================
+   Global Reset
+   =============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* ===============================
+   Page Background
+   =============================== */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Think+ Pink → Purple Gradient */
+    background: linear-gradient(120deg,
+            #e11d74 0%,
+            #c026d3 50%,
+            #7e22ce 100%);
+}
+
+/* ===============================
+   Login Card
+   =============================== */
+.login-card {
+    width: 380px;
+    background: #fff5f7;
+    padding: 36px 32px;
+    border-radius: 24px;
+    text-align: center;
+
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.35);
+}
+
+/* ===============================
+   Title & Subtitle
+   =============================== */
+.login-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #e11d74;
+    margin-bottom: 8px;
+}
+
+.login-subtitle {
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 28px;
+}
+
+/* ===============================
+   Form Section
+   =============================== */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inputs & Select */
+.login-form input,
+.login-form select {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+.login-form input:focus,
+.login-form select:focus {
+    outline: none;
+    border-color: #e11d74;
+    box-shadow: 0 0 0 2px rgba(225, 29, 116, 0.3);
+}
+
+/* ===============================
+   Login Button
+   =============================== */
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+
+    background: linear-gradient(90deg,
+            #e11d74,
+            #9333ea);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(225, 29, 116, 0.6);
+}
+
+/* ===============================
+   Switch Text
+   =============================== */
+.switch-text {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #6b7280;
+    cursor: pointer;
+}
+
+.switch-text:hover {
+    color: #7e22ce;
+}
+
+/* ===============================
+   Footer Text
+   =============================== */
+.login-footer {
+    margin-top: 22px;
+    font-size: 12px;
+    color: #6b7280;
+}
+
+/* ===============================
+   Mobile Responsive
+   =============================== */
+@media (max-width: 480px) {
+    .login-card {
+        width: 90%;
+        padding: 28px 22px;
+    }
+
+    .login-title {
+        font-size: 26px;
+    }
+}

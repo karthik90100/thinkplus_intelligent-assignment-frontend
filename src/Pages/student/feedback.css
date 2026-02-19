@@ -1,0 +1,11 @@
+.feedback-page {
+    min-height: 100vh;
+    padding: 30px;
+    background: linear-gradient(135deg, #fce4ec, #f3e5f5);
+}
+
+.feedback-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #9c27b0;
+}

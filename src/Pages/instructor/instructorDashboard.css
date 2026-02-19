@@ -1,0 +1,16 @@
+.instructor-page {
+    min-height: 100vh;
+    padding: 30px;
+    background: linear-gradient(135deg, #fce4ec, #f3e5f5);
+}
+
+.instructor-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #e91e63;
+}
+
+.instructor-content {
+    display: flex;
+    justify-content: center;
+}
